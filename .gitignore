@@ -8,3 +8,4 @@ packages/**/dist
 __diff_output__
 .yarn
 .yarnrc
+dist
