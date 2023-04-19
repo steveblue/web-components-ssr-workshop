@@ -1,0 +1,21 @@
+{
+  "extends": "./../../tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "es2022",
+    "target": "es2022",
+    "outDir": "./dist"
+  },
+  "include": [
+    "./**/*.js",
+    "src/db/index.ts",
+    "src/middleware/api.ts",
+    "src/middleware/ssr.ts",
+    "src/service/passport.ts",
+    "src/config.ts",
+    "src/index.ts",
+    "src/main.ts"
+  ],
+  "exclude": ["./**/*.stories.js", "./dist"]
+}
